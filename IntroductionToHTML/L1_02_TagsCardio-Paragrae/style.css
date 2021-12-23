@@ -1,0 +1,34 @@
+body {
+    background-color: azure;
+}
+
+.title {
+    background-color: rgb(201, 103, 148);
+}
+
+button:hover { 
+    background-color: rgba(195, 226, 164, 0.911);
+    color:crimson;
+    border: 1px solid black;
+    border-radius: 17%;
+    cursor: pointer;
+}
+
+p {
+    background-image: url("https://www.gardendesign.com/pictures/images/675x529Max/site_3/helianthus-yellow-flower-pixabay_11863.jpg");
+    background-repeat:round;
+    color: rgb(247, 14, 14);
+    padding: 20px;
+    height: 200px;
+    width: 100%;
+    text-indent: 20px;
+}
+
+h3.title {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:line-through;
+    margin:15px;
+    padding: 15px;
+    
+}
