@@ -1,0 +1,30 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body {
+    margin: 60px;
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    margin-bottom: 30px;
+    display: block;
+    width:fit-content;
+}
+a {
+
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+.green {
+    background-color: rgb(0, 128, 0);
+}
+
+.orange {
+    background-color: rgb(255, 140, 0);
+}
+ 
+i {
+    padding-right: 5px;
+}
