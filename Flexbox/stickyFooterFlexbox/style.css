@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: rgb(238, 238, 238);
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    padding: 30px 50px;
+}
+
+header {
+    flex-grow: 1;
+    position: relative;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+header::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: rgb(102, 102, 102);
+    position: absolute;
+    /* flex-basis: 100%; */
+
+}
+
+h2 {
+    font-family: Georgia, serif;
+}
+footer {
+    flex-basis: 100%;
+    background: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding-left: 15px;
+
+
+    /* color: rgb(255, 255, 255); */
+}
