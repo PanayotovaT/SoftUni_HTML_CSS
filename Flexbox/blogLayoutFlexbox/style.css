@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.page {
+    margin: 30px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2, h3, h4, h5, h6,
+blockquote {
+    font-family: Georgia, serif;
+}
+
+header {
+    position: relative;
+    flex-basis: 100%;
+  
+}
+
+header::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: black;
+position: absolute;
+}
+
+header h1 {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+img {
+    border: 4px solid black;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 11px -1px black;
+}
+
+.first-img {
+    float: right;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+article:nth-child(2) {
+    clear: both;
+}
+
+blockquote {
+    float: right;
+    width: 40%;
+    margin-left: 60px;
+    position: relative;
+    font-style: italic;
+    line-height: 1.5;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+blockquote::before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background: rgb(201, 201, 201);
+    position: absolute;
+    left: -30px;
+}
+
+.p-no-float {
+    clear: both;
+}
+
+.second-img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+main {
+   width: 75%;
+}
+
+aside {
+    width: 20%;
+   
+}
+
+aside li {
+    list-style-type: square;
+}
+
+aside li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
