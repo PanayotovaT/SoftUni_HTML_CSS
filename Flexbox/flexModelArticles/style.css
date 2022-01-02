@@ -1,0 +1,33 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+    padding: 80px 100px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    /* margin: 0 120px; */
+    max-width: 70vw;
+
+}
+
+article {
+    margin: 0 30px;
+}
