@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 30px 80px;
+    font-family: Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: Georgia,  serif;
+}
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style-type: none;
+    margin: 15px;
+
+}
+
+header nav ul li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+    
+}
