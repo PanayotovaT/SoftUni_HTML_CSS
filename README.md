@@ -14,3 +14,29 @@
 
 - Изучаване на основите на типографията
 - Стилизиране на уеб сайтове със CSS
+- Основни познания в изграждането на уеб страници
+- Създаване на адаптивен (responsive) уеб дизайн
+- Създаване на съвременни уеб сайтове
+- Възможност за създаване на статични уеб страници
+
+## Теми
+
+- Introduction to HTML & CSS
+- HTML Structure
+- CSS & Typography
+- Exercise: HTML & CSS
+- CSS Box Model
+- Exercise: CSS Box Model
+- Position and Float
+- Exercise: Position & Float
+- Flexbox
+- Exercise: Flexbox
+- Media Queries
+- Design to Code - Demo Project
+
+## Полезни линкове
+- SoftUni <https://softuni.bg>
+- SoftUni Judge <https://judge.softuni.bg>
+- Game for CSS Selectors <https://flukeout.github.io/>
+- CSS Tricks <https://css-tricks.com/>
+
