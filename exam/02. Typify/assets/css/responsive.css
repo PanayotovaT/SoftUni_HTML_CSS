@@ -1,0 +1,62 @@
+@media all and (max-width: 600px) {
+
+    .banner h2 {
+        width: 90%;
+       font-size: 1.7em;
+    }
+
+    .banner {
+        padding: 3em 0 1em 0;
+    }
+
+    .banner .button.special{
+        width: 90%;
+    }
+
+    ul.actions li:last-child {
+        width: 100%;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .wrapper > .inner,
+    .wrapper > .inner.narrow {
+        width: 100%;
+    }
+
+    .feature {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    header.major {
+        margin-bottom: 1em;
+    }
+
+    .grid-form {
+        flex-direction: column;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 100%;
+    }
+
+    .wrapper {
+        padding: 2em 0 0em 0;
+    }
+
+    .wrapper> .inner.narrow {
+        padding: 20px;
+    }
+
+    input[type="submit"], .button {
+        width: 100%;
+     
+    }
+
+    .footer {
+        padding: 1em 0 1em 0;
+    }
+}
